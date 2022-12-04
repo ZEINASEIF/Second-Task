@@ -1,0 +1,53 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(../images/deck_chairs_umbrella_beach_281244_1280x720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  position: relative;
+}
+.parent {
+  background-color: rgba(27, 29, 32, 0.5);
+  height: 725px;
+}
+.parent .div_img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  display: block;
+  margin: 0px auto;
+  padding: 80px 80px 30px 80px;
+}
+
+.parent .div_txt h1 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 0;
+  color: #ffcb42;
+}
+
+.parent .div_txt p {
+  text-align: center;
+  font-size: larger;
+  padding-top: 10px;
+  margin-top: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #96e5d1;
+}
+
+.parent .div_button a {
+  text-decoration: none;
+  border: 1px solid rgb(168, 209, 42);
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #ffcb42;
+  color: #3ab0ff;
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+  width: 70px;
+}
